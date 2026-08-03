@@ -1,0 +1,8 @@
+# Fijar las versiones exactas antes de la entrega final
+
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+jupyter
