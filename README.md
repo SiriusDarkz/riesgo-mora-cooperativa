@@ -80,7 +80,7 @@ La semilla aleatoria está fijada (`seed = 42`), por lo que ejecutar el notebook
 
 - [x] Etapa 1 · Formulación
 - [ ] Etapa 2 · Generación de datos sintéticos
-- [ ] Etapa 3 · Auditoría de variables
+- [x] Etapa 3 · Auditoría de variables
 - [ ] Etapa 4 · Diseño de la evaluación
 - [ ] Etapa 5 · Baselines y modelos
 - [ ] Etapa 6 · Protocolo congelado
