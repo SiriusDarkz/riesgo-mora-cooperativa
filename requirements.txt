@@ -1,8 +1,5 @@
-# Fijar las versiones exactas antes de la entrega final
-
-numpy
-pandas
-scikit-learn
-matplotlib
-seaborn
-jupyter
+numpy==2.0.2
+pandas==2.2.2
+scikit-learn==1.6.1
+matplotlib==3.10.0
+seaborn==0.13.2
