@@ -2,7 +2,7 @@
 
 **Proyecto:** Caso 1 · Riesgo de mora en préstamos nuevos — Cooperativa Progreso del Sur
 **Etapa:** 3 · Auditar
-**Estado:** clasificación completa; demostración empírica pendiente de ejecución (Etapa 5)
+**Estado:** clasificación completa; demostración empírica ejecutada en validación (Etapa 5)
 
 ---
 
@@ -156,10 +156,10 @@ enunciado lo permite: la lista de variables se titula "mínimas" (es un piso,
 no un techo) y la categoría "solo para auditoría" existe en el propio menú de
 clasificación.
 
-## 9. Demostración empírica (pendiente de ejecutar)
+## 9. Demostración empírica (ejecutada en validación)
 
 Para mostrar que la exclusión de las variables de fuga no es un formalismo,
-en la Etapa 5 haremos esta comparación usando solo la partición de desarrollo
+en la Etapa 5 hicimos esta comparación usando solo la partición de desarrollo
 (el test permanece cerrado):
 
 1. Una regresión logística con las 11 predictoras válidas más las variables
@@ -170,11 +170,14 @@ en la Etapa 5 haremos esta comparación usando solo la partición de desarrollo
 
 | Modelo | AUC (validación) |
 |---|---|
-| Con variables de fuga | *pendiente de ejecución* |
-| Sin variables de fuga (limpio) | *pendiente de ejecución* |
+| Con variables de fuga | **0.994** |
+| Sin variables de fuga (limpio) | **0.679** |
 
 La brecha entre las dos filas mide cuánto ayuda "conocer la respuesta". El
 primer modelo no es mejor: es tramposo, y en producción sería inservible.
+El modelo limpio quedó en 0.679, apenas por debajo de la banda prevista
+(0.70–0.80); mantenemos la predicción original tal como se escribió, porque
+lo que esta demostración prueba es el contraste, no el decimal.
 
 ## 10. Notas de equidad
 
