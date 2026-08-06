@@ -12,13 +12,13 @@ Proyecto de la Semana 1 de la asignatura *Selección y Validación de Modelos*: 
 
 ## Integrantes
 
-| Nombre | Responsabilidad |
-|---|---|
-| Jose Eugenio Duran Vizcaino | *(por definir)* |
-| Anthony Burgos | *(por definir)* |
-| Isaac Sanchez | *(por definir)* |
-| Maximo Martinez | *(por definir)* |
-| Francisco Jose Mejia | *(por definir)* |
+| Nombre |
+|---|
+| Jose Eugenio Duran Vizcaino | 
+| Anthony Burgos | 
+| Isaac Sanchez | 
+| Maximo Martinez | 
+| Francisco Jose Mejia |
 
 ## Descripción del problema
 
@@ -83,6 +83,6 @@ La semilla aleatoria está fijada (`seed = 42`), por lo que ejecutar el notebook
 - [x] Etapa 3 · Auditoría de variables
 - [x] Etapa 4 · Diseño de la evaluación
 - [x] Etapa 5 · Baselines y modelos
-- [ ] Etapa 6 · Protocolo congelado
-- [ ] Etapa 7 · Evaluación en test
-- [ ] Etapa 8 · Informe y recomendación
+- [x] Etapa 6 · Protocolo congelado
+- [x] Etapa 7 · Evaluación en test
+- [x] Etapa 8 · Informe y recomendación
